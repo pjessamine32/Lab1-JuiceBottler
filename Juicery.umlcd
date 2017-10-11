@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_mRQJ4K4wEeeSJo5YDt44eg">
+  <modelElement href="Juicery.uml#_mNwxAK4wEeeSJo5YDt44eg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_n1BCsK4wEeeSJo5YDt44eg" sourceAnchor="228.0,55.0" targetAnchor="80.0,118.0" target="_n31tMK4wEeeSJo5YDt44eg" source="_n1C34K4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_nCJbUK4wEeeSJo5YDt44eg"/>
+    <bendpoints xmi:id="_oGBTIK4wEeeSJo5YDt44eg" sourceX="286" targetY="110"/>
+    <stereotypes xmi:id="_n1BpwK4wEeeSJo5YDt44eg" name="Reference">
+      <modelElement href="Juicery.uml#_nCKpcK4wEeeSJo5YDt44eg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_n1Bpwa4wEeeSJo5YDt44eg" text="">
+      <visualProperties xmi:id="_oGE9gK4wEeeSJo5YDt44eg" position="-268.31489200708313,-17.546620320351337"/>
+    </nameVisual>
+    <sourceRole xmi:id="_n1Bpwq4wEeeSJo5YDt44eg" aggregationKind="NONE" name="">
+      <modelElement href="Juicery.uml#_nCJbUa4wEeeSJo5YDt44eg"/>
+      <visualProperties xmi:id="_oGDvYa4wEeeSJo5YDt44eg" position="38.86631008766699,-32.132388112104096"/>
+      <visibility xmi:id="_n1Bpw64wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n1BpxK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_n1CQ0K4wEeeSJo5YDt44eg" aggregationKind="NONE" name="oranges" navigable="true">
+      <modelElement href="Juicery.uml#_nBTGwK4wEeeSJo5YDt44eg"/>
+      <visualProperties xmi:id="_oGFkkK4wEeeSJo5YDt44eg" position="-297.40813264778586,77.78393077478836"/>
+      <visibility xmi:id="_n1CQ0a4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n1CQ0q4wEeeSJo5YDt44eg" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_n3K-0K4wEeeSJo5YDt44eg" targetItem="_n3Ths64wEeeSJo5YDt44eg" sourceItem="_n3KXwK4wEeeSJo5YDt44eg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_n3STkK4wEeeSJo5YDt44eg" source="_n3S6oK4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_nCKpca4wEeeSJo5YDt44eg"/>
+    <stereotypes xmi:id="_n3STka4wEeeSJo5YDt44eg" name="Reference">
+      <modelElement href="Juicery.uml#_nCL3kK4wEeeSJo5YDt44eg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_n3STkq4wEeeSJo5YDt44eg" text=""/>
+    <sourceRole xmi:id="_n3STk64wEeeSJo5YDt44eg" aggregationKind="NONE" name="">
+      <modelElement href="Juicery.uml#_nCKpcq4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3STlK4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3STla4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_n3STlq4wEeeSJo5YDt44eg" aggregationKind="NONE" name="thread" navigable="true">
+      <modelElement href="Juicery.uml#_nBYmUa4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3STl64wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3STmK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_n4qzoK4wEeeSJo5YDt44eg" sourceAnchor="0.0,106.0" targetAnchor="114.0,111.0" target="_n1C34K4wEeeSJo5YDt44eg" source="_n48gcK4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_nCNFsK4wEeeSJo5YDt44eg"/>
+    <bendpoints xmi:id="_oGDIUK4wEeeSJo5YDt44eg" sourceX="-183" targetY="161"/>
+    <stereotypes xmi:id="_n4zWgq4wEeeSJo5YDt44eg" name="Reference">
+      <modelElement href="Juicery.uml#_nCOT0K4wEeeSJo5YDt44eg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_n4yvca4wEeeSJo5YDt44eg" text="">
+      <visualProperties xmi:id="_oGHZwK4wEeeSJo5YDt44eg" position="144.00884610281452,-13.532866523047574"/>
+    </nameVisual>
+    <sourceRole xmi:id="_n4zWgK4wEeeSJo5YDt44eg" aggregationKind="NONE" name="">
+      <modelElement href="Juicery.uml#_nCNFsa4wEeeSJo5YDt44eg"/>
+      <visualProperties xmi:id="_oGGysK4wEeeSJo5YDt44eg" position="-51.72043704979512,-31.646395550935495"/>
+      <visibility xmi:id="_n44PAq4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n44PAa4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_n4zWga4wEeeSJo5YDt44eg" aggregationKind="NONE" name="pile" navigable="true">
+      <modelElement href="Juicery.uml#_nBn24K4wEeeSJo5YDt44eg"/>
+      <visualProperties xmi:id="_oGIA0K4wEeeSJo5YDt44eg" position="164.39368391266362,128.8181657532857"/>
+      <visibility xmi:id="_n442Ea4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n442EK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_n4xhUK4wEeeSJo5YDt44eg" sourceAnchor="249.0,0.0" targetAnchor="228.0,85.0" target="_n1C34K4wEeeSJo5YDt44eg" source="_n48gcK4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_nCO64K4wEeeSJo5YDt44eg"/>
+    <bendpoints xmi:id="_oGDvYK4wEeeSJo5YDt44eg" sourceY="-81" targetX="318"/>
+    <stereotypes xmi:id="_n4z9k64wEeeSJo5YDt44eg" name="Reference">
+      <modelElement href="Juicery.uml#_nCPh8K4wEeeSJo5YDt44eg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_n4z9kK4wEeeSJo5YDt44eg" text="">
+      <visualProperties xmi:id="_oGKdEK4wEeeSJo5YDt44eg" position="-12.967133476952426,52.008846102814516"/>
+    </nameVisual>
+    <sourceRole xmi:id="_n4z9ka4wEeeSJo5YDt44eg" aggregationKind="NONE" name="">
+      <modelElement href="Juicery.uml#_nCO64a4wEeeSJo5YDt44eg"/>
+      <visualProperties xmi:id="_oGJO8K4wEeeSJo5YDt44eg" position="2.1463955509354946,-66.7204370497951"/>
+      <visibility xmi:id="_n442FK4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n442E64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_n4z9kq4wEeeSJo5YDt44eg" aggregationKind="NONE" name="nextPile" navigable="true">
+      <modelElement href="Juicery.uml#_nBod8a4wEeeSJo5YDt44eg"/>
+      <visualProperties xmi:id="_oGKdEa4wEeeSJo5YDt44eg" position="300.1818342467143,56.89368391266362"/>
+      <visibility xmi:id="_n45dIa4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n45dIK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_n4yvcK4wEeeSJo5YDt44eg" source="_n48gcK4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_nCL3ka4wEeeSJo5YDt44eg"/>
+    <stereotypes xmi:id="_n44PAK4wEeeSJo5YDt44eg" name="Reference">
+      <modelElement href="Juicery.uml#_nCMeoK4wEeeSJo5YDt44eg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_n43n8K4wEeeSJo5YDt44eg" text=""/>
+    <sourceRole xmi:id="_n43n8a4wEeeSJo5YDt44eg" aggregationKind="NONE" name="">
+      <modelElement href="Juicery.uml#_nCL3kq4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n46EMa4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n46EMK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_n43n8q4wEeeSJo5YDt44eg" aggregationKind="NONE" name="thread" navigable="true">
+      <modelElement href="Juicery.uml#_nBjlcK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n46EM64wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n46EMq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_n41ywK4wEeeSJo5YDt44eg" targetItem="_n48gna4wEeeSJo5YDt44eg" sourceItem="_n41LsK4wEeeSJo5YDt44eg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_n3KXwK4wEeeSJo5YDt44eg" sourceConnectionVisual="_n3K-0K4wEeeSJo5YDt44eg" text="SUPPOSED TO CHANGE THIS TO TELL THE FACTORY WHAT TO DO BUT IDK...*" item="_n3Ths64wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_nCD7wK4wEeeSJo5YDt44eg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_n41LsK4wEeeSJo5YDt44eg" sourceConnectionVisual="_n41ywK4wEeeSJo5YDt44eg" text="ME, CHANGED THREAD LINE TO POSITION*" item="_n48gna4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_nCFJ4q4wEeeSJo5YDt44eg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_n1C34K4wEeeSJo5YDt44eg" name="AssemblyLine" associationsIn="_n4qzoK4wEeeSJo5YDt44eg _n4xhUK4wEeeSJo5YDt44eg" associationsOut="_n1BCsK4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_m9T-oK4wEeeSJo5YDt44eg"/>
+    <visualProperties xmi:id="_n1De8K4wEeeSJo5YDt44eg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_n1De8a4wEeeSJo5YDt44eg" label="+"/>
+    <attributes xmi:id="_n1De8q4wEeeSJo5YDt44eg" name="oranges">
+      <modelElement href="Juicery.uml#_nBTGwK4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n1De864wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBUU4K4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n1De9K4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n1De9a4wEeeSJo5YDt44eg" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_n1De9q4wEeeSJo5YDt44eg" name="Orange">
+        <modelElement href="Juicery.uml#_m91jEK4wEeeSJo5YDt44eg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_n1De964wEeeSJo5YDt44eg" name="AssemblyLine">
+      <modelElement href="Juicery.uml#_m9dvoK4wEeeSJo5YDt44eg"/>
+      <keywords xmi:id="_n1De-K4wEeeSJo5YDt44eg" keyword="create"/>
+      <visibility xmi:id="_n1De-a4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n1De-q4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n1De-64wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9fk0q4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n1De_K4wEeeSJo5YDt44eg" name="AssemblyLine">
+          <modelElement href="Juicery.uml#_m9T-oK4wEeeSJo5YDt44eg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n1De_a4wEeeSJo5YDt44eg" name="getOrange">
+      <modelElement href="Juicery.uml#_m9gy8K4wEeeSJo5YDt44eg"/>
+      <keywords xmi:id="_n1De_q4wEeeSJo5YDt44eg" keyword="synchronized"/>
+      <visibility xmi:id="_n1De_64wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n1DfAK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n1DfAa4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_nAufAK4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n1DfAq4wEeeSJo5YDt44eg" name="Orange">
+          <modelElement href="Juicery.uml#_m91jEK4wEeeSJo5YDt44eg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n1DfA64wEeeSJo5YDt44eg" name="countOranges">
+      <modelElement href="Juicery.uml#_m9iBEK4wEeeSJo5YDt44eg"/>
+      <keywords xmi:id="_n1DfBK4wEeeSJo5YDt44eg" keyword="synchronized"/>
+      <visibility xmi:id="_n1DfBa4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n1DfBq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n1DfB64wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9ioIa4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n1DfCK4wEeeSJo5YDt44eg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n1DfCa4wEeeSJo5YDt44eg" name="addOrange">
+      <modelElement href="Juicery.uml#_nAtQ4K4wEeeSJo5YDt44eg"/>
+      <keywords xmi:id="_n1DfCq4wEeeSJo5YDt44eg" keyword="synchronized"/>
+      <visibility xmi:id="_n1DfC64wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n1DfDK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_n1DfDa4wEeeSJo5YDt44eg" name="o">
+        <modelElement href="Juicery.uml#_nAtQ4a4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n1DfDq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+        <type xmi:id="_n1DfD64wEeeSJo5YDt44eg" name="Orange">
+          <modelElement href="Juicery.uml#_m91jEK4wEeeSJo5YDt44eg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_n3S6oK4wEeeSJo5YDt44eg" name="Factory" associationsOut="_n3STkK4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_m9lEYK4wEeeSJo5YDt44eg"/>
+    <visualProperties xmi:id="_n3S6oa4wEeeSJo5YDt44eg" position="-411.0,-227.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_n3S6oq4wEeeSJo5YDt44eg" label="+"/>
+    <attributes xmi:id="_n3S6o64wEeeSJo5YDt44eg" defaultValue="5 * 1000" name="PROCESSING_TIME" staticAttribute="true">
+      <modelElement href="Juicery.uml#_nBVjAK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3S6pK4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3S6pa4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6pq4wEeeSJo5YDt44eg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n3S6p64wEeeSJo5YDt44eg" defaultValue="3" name="NUM_Factories" staticAttribute="true">
+      <modelElement href="Juicery.uml#_nBWKEK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3S6qK4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3S6qa4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6qq4wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n3S6q64wEeeSJo5YDt44eg" defaultValue="2" name="NUM_AssemblyLines" staticAttribute="true">
+      <modelElement href="Juicery.uml#_nBWxIK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3S6rK4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3S6ra4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6rq4wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n3S6r64wEeeSJo5YDt44eg" defaultValue="10" name="NUM_Workers" staticAttribute="true">
+      <modelElement href="Juicery.uml#_nBXYMK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3S6sK4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3S6sa4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6sq4wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n3S6s64wEeeSJo5YDt44eg" defaultValue="3" name="ORANGES_PER_BOTTLE">
+      <modelElement href="Juicery.uml#_nBX_QK4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n3S6tK4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBYmUK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n3S6ta4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3S6tq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6t64wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n3S6uK4wEeeSJo5YDt44eg" name="thread">
+      <modelElement href="Juicery.uml#_nBYmUa4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n3S6ua4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBZ0cK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n3S6uq4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3S6u64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6vK4wEeeSJo5YDt44eg" name="Thread">
+        <modelElement href="Juicery.uml#_nBIusK4wEeeSJo5YDt44eg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n3S6va4wEeeSJo5YDt44eg" name="orangesProvided">
+      <modelElement href="Juicery.uml#_nBZ0ca4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n3S6vq4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBabgK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n3S6v64wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3S6wK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6wa4wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n3S6wq4wEeeSJo5YDt44eg" name="orangesProcessed">
+      <modelElement href="Juicery.uml#_nBbCkK4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n3S6w64wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBbpoK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n3S6xK4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3S6xa4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6xq4wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n3S6x64wEeeSJo5YDt44eg" name="timeToWork">
+      <modelElement href="Juicery.uml#_nBbpoa4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n3S6yK4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBc3wK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n3S6ya4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3S6yq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n3S6y64wEeeSJo5YDt44eg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_n3S6zK4wEeeSJo5YDt44eg" name="main" staticOperation="true">
+      <modelElement href="Juicery.uml#_m9m5kK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3S6za4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3S6zq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_n3S6z64wEeeSJo5YDt44eg" name="args">
+        <modelElement href="Juicery.uml#_m9ngoK4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n3S60K4wEeeSJo5YDt44eg" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_n3S60a4wEeeSJo5YDt44eg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_n3S60q4wEeeSJo5YDt44eg" name="delay" staticOperation="true">
+      <modelElement href="Juicery.uml#_m9ouwK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3S6064wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3S61K4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_n3S61a4wEeeSJo5YDt44eg" name="time">
+        <modelElement href="Juicery.uml#_m9ouwa4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n3S61q4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+        <type xmi:id="_n3S6164wEeeSJo5YDt44eg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_n3S62K4wEeeSJo5YDt44eg" name="errMsg">
+        <modelElement href="Juicery.uml#_m9ouwq4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n3S62a4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+        <type xmi:id="_n3S62q4wEeeSJo5YDt44eg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_n3S6264wEeeSJo5YDt44eg" name="Factory">
+      <modelElement href="Juicery.uml#_m9qj8K4wEeeSJo5YDt44eg"/>
+      <keywords xmi:id="_n3S63K4wEeeSJo5YDt44eg" keyword="create"/>
+      <visibility xmi:id="_n3S63a4wEeeSJo5YDt44eg" label="~"/>
+      <cardinality xmi:id="_n3S63q4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n3S6364wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9qj864wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n3S64K4wEeeSJo5YDt44eg" name="Factory">
+          <modelElement href="Juicery.uml#_m9lEYK4wEeeSJo5YDt44eg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n3S64a4wEeeSJo5YDt44eg" name="startFactory">
+      <modelElement href="Juicery.uml#_m9rLAK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3S64q4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3S6464wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n3S65K4wEeeSJo5YDt44eg" name="stopFactory">
+      <modelElement href="Juicery.uml#_m9rLAa4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3S65a4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3S65q4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n3ThsK4wEeeSJo5YDt44eg" name="waitToStop">
+      <modelElement href="Juicery.uml#_m9ryEK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3Thsa4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3Thsq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n3Ths64wEeeSJo5YDt44eg" comments="_n3KXwK4wEeeSJo5YDt44eg" targetConnectionVisual="_n3K-0K4wEeeSJo5YDt44eg" name="run">
+      <modelElement href="Juicery.uml#_m9ryEa4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3ThtK4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3Thta4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n3Thtq4wEeeSJo5YDt44eg" name="getFetchedOranges">
+      <modelElement href="Juicery.uml#_m9sZIK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3Tht64wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3ThuK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n3Thua4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9tAMK4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n3Thuq4wEeeSJo5YDt44eg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n3Thu64wEeeSJo5YDt44eg" name="getPeeledOranges">
+      <modelElement href="Juicery.uml#_m9tAMa4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3ThvK4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3Thva4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n3Thvq4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9tnQK4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n3Thv64wEeeSJo5YDt44eg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n3ThwK4wEeeSJo5YDt44eg" name="getSqueezedOranages">
+      <modelElement href="Juicery.uml#_m9uOUK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3Thwa4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3Thwq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n3Thw64wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9uOUa4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n3ThxK4wEeeSJo5YDt44eg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n3Thxa4wEeeSJo5YDt44eg" name="getBottled">
+      <modelElement href="Juicery.uml#_m9u1YK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3Thxq4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3Thx64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n3ThyK4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9u1Ya4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n3Thya4wEeeSJo5YDt44eg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n3Thyq4wEeeSJo5YDt44eg" name="getWaste">
+      <modelElement href="Juicery.uml#_m9vccK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3Thy64wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3ThzK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n3Thza4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9vcca4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n3Thzq4wEeeSJo5YDt44eg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n3Thz64wEeeSJo5YDt44eg" name="getProcessed">
+      <modelElement href="Juicery.uml#_m9wDgK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3Th0K4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n3Th0a4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n3Th0q4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9wDga4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n3Th064wEeeSJo5YDt44eg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n3Th1K4wEeeSJo5YDt44eg" name="fetchOrange">
+      <modelElement href="Juicery.uml#_nAw7QK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n3Th1a4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n3Th1q4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_n3Th164wEeeSJo5YDt44eg" name="o">
+        <modelElement href="Juicery.uml#_nAw7Qa4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n3Th2K4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+        <type xmi:id="_n3Th2a4wEeeSJo5YDt44eg" name="Orange">
+          <modelElement href="Juicery.uml#_m91jEK4wEeeSJo5YDt44eg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_n31tMK4wEeeSJo5YDt44eg" name="Orange" associationsIn="_n1BCsK4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_m91jEK4wEeeSJo5YDt44eg"/>
+    <visualProperties xmi:id="_n31tMa4wEeeSJo5YDt44eg" position="464.0,-143.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_n31tMq4wEeeSJo5YDt44eg" label="+"/>
+    <attributes xmi:id="_n31tM64wEeeSJo5YDt44eg" name="state">
+      <modelElement href="Juicery.uml#_nBhwQK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n31tNK4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n31tNa4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n31tNq4wEeeSJo5YDt44eg" name="State">
+        <modelElement href="Juicery.uml#_m93YQK4wEeeSJo5YDt44eg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_n31tN64wEeeSJo5YDt44eg" name="Orange">
+      <modelElement href="Juicery.uml#_m-BwUK4wEeeSJo5YDt44eg"/>
+      <keywords xmi:id="_n31tOK4wEeeSJo5YDt44eg" keyword="create"/>
+      <visibility xmi:id="_n31tOa4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n31tOq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n31tO64wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m-CXYq4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n31tPK4wEeeSJo5YDt44eg" name="Orange">
+          <modelElement href="Juicery.uml#_m91jEK4wEeeSJo5YDt44eg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_n31tPa4wEeeSJo5YDt44eg" name="runProcess">
+      <modelElement href="Juicery.uml#_m-CXY64wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n31tPq4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n31tP64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n31tQK4wEeeSJo5YDt44eg" name="doWork">
+      <modelElement href="Juicery.uml#_m-C-cK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n31tQa4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n31tQq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:EnumerationVisual" xmi:id="_n4cxMK4wEeeSJo5YDt44eg" name="State">
+    <modelElement href="Juicery.uml#_m93YQK4wEeeSJo5YDt44eg"/>
+    <visualProperties xmi:id="_n4cxMa4wEeeSJo5YDt44eg" position="-768.0,-251.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_n4cxMq4wEeeSJo5YDt44eg" label="+"/>
+    <attributes xmi:id="_n4cxM64wEeeSJo5YDt44eg" defaultValue="State.values().length - 1" name="finalIndex" staticAttribute="true">
+      <modelElement href="Juicery.uml#_nBes8K4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n4cxNK4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n4cxNa4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n4cxNq4wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n4cxN64wEeeSJo5YDt44eg" name="timeToComplete">
+      <modelElement href="Juicery.uml#_nBgiIK4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n4cxOK4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBhJMK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n4cxOa4wEeeSJo5YDt44eg" label="~"/>
+      <cardinality xmi:id="_n4cxOq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n4cxO64wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_n4cxPK4wEeeSJo5YDt44eg" name="State">
+      <modelElement href="Juicery.uml#_m9830K4wEeeSJo5YDt44eg"/>
+      <keywords xmi:id="_n4cxPa4wEeeSJo5YDt44eg" keyword="create"/>
+      <visibility xmi:id="_n4cxPq4wEeeSJo5YDt44eg" label="~"/>
+      <cardinality xmi:id="_n4cxP64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n4cxQK4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_m9-F8K4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n4cxQa4wEeeSJo5YDt44eg" name="State">
+          <modelElement href="Juicery.uml#_m93YQK4wEeeSJo5YDt44eg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_n4cxQq4wEeeSJo5YDt44eg" name="timeToComplete">
+        <modelElement href="Juicery.uml#_m99e4K4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n4cxQ64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+        <type xmi:id="_n4cxRK4wEeeSJo5YDt44eg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_n4cxRa4wEeeSJo5YDt44eg" name="getNext">
+      <modelElement href="Juicery.uml#_m9-F8a4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n4cxRq4wEeeSJo5YDt44eg" label="~"/>
+      <cardinality xmi:id="_n4cxR64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n4cxSK4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_nA1zwK4wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n4cxSa4wEeeSJo5YDt44eg" name="State">
+          <modelElement href="Juicery.uml#_m93YQK4wEeeSJo5YDt44eg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <literals xmi:id="_n4cxSq4wEeeSJo5YDt44eg" name="Fetched">
+      <modelElement href="Juicery.uml#_m94mYK4wEeeSJo5YDt44eg"/>
+    </literals>
+    <literals xmi:id="_n4cxS64wEeeSJo5YDt44eg" name="Peeled">
+      <modelElement href="Juicery.uml#_m95NcK4wEeeSJo5YDt44eg"/>
+    </literals>
+    <literals xmi:id="_n4cxTK4wEeeSJo5YDt44eg" name="Squeezed">
+      <modelElement href="Juicery.uml#_m950gK4wEeeSJo5YDt44eg"/>
+    </literals>
+    <literals xmi:id="_n4cxTa4wEeeSJo5YDt44eg" name="Bottled">
+      <modelElement href="Juicery.uml#_m96bkK4wEeeSJo5YDt44eg"/>
+    </literals>
+    <literals xmi:id="_n4cxTq4wEeeSJo5YDt44eg" name="Processed">
+      <modelElement href="Juicery.uml#_m96bkq4wEeeSJo5YDt44eg"/>
+    </literals>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_n48gcK4wEeeSJo5YDt44eg" name="Worker" associationsOut="_n4qzoK4wEeeSJo5YDt44eg _n4xhUK4wEeeSJo5YDt44eg _n4yvcK4wEeeSJo5YDt44eg">
+    <modelElement href="Juicery.uml#_m-K6QK4wEeeSJo5YDt44eg"/>
+    <visualProperties xmi:id="_n48gca4wEeeSJo5YDt44eg" position="327.0,196.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_n48gcq4wEeeSJo5YDt44eg" label="+"/>
+    <attributes xmi:id="_n48gc64wEeeSJo5YDt44eg" name="thread">
+      <modelElement href="Juicery.uml#_nBjlcK4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n48gdK4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBkMgK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n48gda4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n48gdq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n48gd64wEeeSJo5YDt44eg" name="Thread">
+        <modelElement href="Juicery.uml#_nBIusK4wEeeSJo5YDt44eg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n48geK4wEeeSJo5YDt44eg" name="orangesProvided">
+      <modelElement href="Juicery.uml#_nBkMga4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n48gea4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBkzkK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n48geq4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n48ge64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n48gfK4wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n48gfa4wEeeSJo5YDt44eg" name="orangesProcessed">
+      <modelElement href="Juicery.uml#_nBlaoK4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n48gfq4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBmBsK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n48gf64wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n48ggK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n48gga4wEeeSJo5YDt44eg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n48ggq4wEeeSJo5YDt44eg" name="timeToWork">
+      <modelElement href="Juicery.uml#_nBmowK4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n48gg64wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBnP0K4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n48ghK4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n48gha4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n48ghq4wEeeSJo5YDt44eg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n48gh64wEeeSJo5YDt44eg" name="pile">
+      <modelElement href="Juicery.uml#_nBn24K4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n48giK4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBod8K4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n48gia4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n48giq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n48gi64wEeeSJo5YDt44eg" name="AssemblyLine">
+        <modelElement href="Juicery.uml#_m9T-oK4wEeeSJo5YDt44eg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_n48gjK4wEeeSJo5YDt44eg" name="nextPile">
+      <modelElement href="Juicery.uml#_nBod8a4wEeeSJo5YDt44eg"/>
+      <stereotypes xmi:id="_n48gja4wEeeSJo5YDt44eg" name="LegacyStyledElement">
+        <modelElement href="Juicery.uml#_nBpsEK4wEeeSJo5YDt44eg"/>
+      </stereotypes>
+      <visibility xmi:id="_n48gjq4wEeeSJo5YDt44eg" label="-"/>
+      <cardinality xmi:id="_n48gj64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <type xmi:id="_n48gkK4wEeeSJo5YDt44eg" name="AssemblyLine">
+        <modelElement href="Juicery.uml#_m9T-oK4wEeeSJo5YDt44eg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_n48gka4wEeeSJo5YDt44eg" name="startWorker">
+      <modelElement href="Juicery.uml#_m-PywK4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n48gkq4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n48gk64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n48glK4wEeeSJo5YDt44eg" name="stopWorker">
+      <modelElement href="Juicery.uml#_m-RA4K4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n48gla4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n48glq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n48gl64wEeeSJo5YDt44eg" name="waitToStop">
+      <modelElement href="Juicery.uml#_m-Rn8K4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n48gmK4wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n48gma4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n48gmq4wEeeSJo5YDt44eg" name="run">
+      <modelElement href="Juicery.uml#_m-Rn8a4wEeeSJo5YDt44eg"/>
+      <visibility xmi:id="_n48gm64wEeeSJo5YDt44eg" label="+"/>
+      <cardinality xmi:id="_n48gnK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_n48gna4wEeeSJo5YDt44eg" comments="_n41LsK4wEeeSJo5YDt44eg" targetConnectionVisual="_n41ywK4wEeeSJo5YDt44eg" name="Worker">
+      <modelElement href="Juicery.uml#_nA6FMK4wEeeSJo5YDt44eg"/>
+      <keywords xmi:id="_n48gnq4wEeeSJo5YDt44eg" keyword="create"/>
+      <visibility xmi:id="_n48gn64wEeeSJo5YDt44eg" label="~"/>
+      <cardinality xmi:id="_n48goK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_n48goa4wEeeSJo5YDt44eg">
+        <modelElement href="Juicery.uml#_nA6sQ64wEeeSJo5YDt44eg"/>
+        <type xmi:id="_n48goq4wEeeSJo5YDt44eg" name="Worker">
+          <modelElement href="Juicery.uml#_m-K6QK4wEeeSJo5YDt44eg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_n48go64wEeeSJo5YDt44eg" name="position">
+        <modelElement href="Juicery.uml#_nA6FMa4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n48gpK4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+        <type xmi:id="_n48gpa4wEeeSJo5YDt44eg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_n48gpq4wEeeSJo5YDt44eg" name="pile">
+        <modelElement href="Juicery.uml#_nA6FMq4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n48gp64wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+        <type xmi:id="_n48gqK4wEeeSJo5YDt44eg" name="AssemblyLine">
+          <modelElement href="Juicery.uml#_m9T-oK4wEeeSJo5YDt44eg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_n48gqa4wEeeSJo5YDt44eg" name="nextPile">
+        <modelElement href="Juicery.uml#_nA6sQK4wEeeSJo5YDt44eg"/>
+        <cardinality xmi:id="_n48gqq4wEeeSJo5YDt44eg" label="1" max="1" min="1"/>
+        <type xmi:id="_n48gq64wEeeSJo5YDt44eg" name="AssemblyLine">
+          <modelElement href="Juicery.uml#_m9T-oK4wEeeSJo5YDt44eg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
